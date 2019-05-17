@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.css">
+  </head>
+
+  <body>
+    <div>
+      <h1>WeaCodeCamp</h1>
+      <h2>Homepage</h2>
+      <p>[1] 解析 index.html 结构</p>
+      <div id="d2d-content" class="d2d-content">
+        <!-- 动态插入页面 -->
+      </div>
+      <img id="_img" src="https://picsum.photos/200/300" alt="占位图" />
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script>
+      window.onload = function() {
+        console.log("[6] 页面加载完毕，执行 window.onload");
+        $('#d2d-content').load('./subpage/product.html', function() {
+          console.log("[9] 执行 product.html 拼接完成后的代码");
+        })
+      };
+      document.getElementById("_img").onload = function() {
+        console.log("[5] 加载图片等二进制资源");
+      };
+      $(function() {
+        console.log("[4] 执行$(function(){})内对应代码");
+      });
+      console.log("[3] 解析并执行脚本代码");
+    </script>
+  </body>
+</html>

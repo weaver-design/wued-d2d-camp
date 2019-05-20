@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="wuxd">WeaCodeCamp</h1>
+  <script>
+    // 声明一个字符串
+    var name = '邓邓';
+    // 声明一个对象
+    var man = {
+      name: '邓邓',
+      age: 28,
+    }
+    // 声明一个数组
+    var numbers = [1, 2, 3];
+    // 函数-打个招呼介绍一下自己
+    var greet = function() {
+      console.log('Hello World! I am ' + name);
+      console.log('This first item in numbers is', numbers[0]);
+      console.log('The man is ' + man.age + ' years old.');
+    }
+    // 调用-打个招呼
+    greet();
+    // 函数-计算总数
+    var getSum = function(numbers) {
+      var sum = 0;
+      for(var index = 0; index < numbers.length; index++) {
+        sum = sum + numbers[index];
+      }
+      return sum;
+    }
+    var SUM = getSum(numbers);
+    console.log('总数是：', SUM);
+    // 函数-计算平均值
+    var getAverage = function(numbers) {
+      var sum = 0;
+      var averge;
+      for(var index = 0; index < numbers.length; index++) {
+        sum = sum + numbers[index];
+      }
+      averge = sum / numbers.length;
+      return averge;
+    }
+    var AVERAGE = getAverage(numbers);
+    console.log('平均数是：', AVERAGE);
+  </script>
+  <script>
+    var WUXD = [
+      {
+        name: '照照',
+        age: 18
+      },
+      {
+        name: '平江',
+        age: 18
+      },
+      {
+        name: '杨柳',
+        age: 18
+      },
+      {
+        name: '红雨',
+        age: 17
+      },
+      {
+        name: '双双',
+        age: 18
+      }
+    ];
+
+    var awesomeWUXD = function(groups) {
+      var sum = 0;
+      for(var index = 0; index < groups.length; index++) {
+        sum = sum + groups[index].age;
+      }
+      var average = Math.ceil(sum / groups.length);
+      var text = '<h1>泛微 WUXD 成立于 2019/05/20，是一只年轻的设计团队，成员的平均年龄是' + average + '</h1>'
+      document.getElementById('wuxd').innerHTML = text;
+    }
+
+    awesomeWUXD(WUXD)
+  </script>
+</body>
+</html>

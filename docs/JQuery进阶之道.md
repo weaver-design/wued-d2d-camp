@@ -2,13 +2,6 @@
 
 JQuery 是经典的前端 DOM 编程库，[JQuery 参考手册](http://jquery.cuishifeng.cn/)
 
-1、解析HTML结构
-2、加载外部的脚本和样式文件
-3、解析并执行脚本代码
-4、执行$(function(){})内对应代码
-5、加载图片等二进制资源
-6、页面加载完毕，执行window.onload
-
 在这里为大家介绍几个 JQuery 的使用小技巧：
 
 ## 1. $.on() 事件绑定与冒泡

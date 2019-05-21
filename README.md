@@ -1,4 +1,4 @@
-# WeaCodeCamp
+# WUEDCodeCamp
 
 ## 🎯 D2D 集训营第1期
 

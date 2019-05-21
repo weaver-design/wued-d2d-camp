@@ -9,7 +9,7 @@ D2D（Designer to Developer）人类文明因为创造而延续，设计让生�
 ### 🥇 培训大纲
 
 日期：2019/05/20
-地点：泛微三楼小会议室
+地点：泛微五楼小会议室
 
 - VS Code 开发工具
   - 安装与使用
@@ -22,20 +22,14 @@ D2D（Designer to Developer）人类文明因为创造而延续，设计让生�
   - 变量
   - 对象
   - 函数
-- CSS 规范
-  - Atomic Design 原子设计
-  - BEN 命名法则 (命名是检验代码质量的标准)
-  - Sass 预编译介绍
-- JQuery 进阶
-  - $.load()
-  - $.each()
-  - $.tongle()
 - 答疑环节
 - 作业练习
 
 ### 🥈 演示资料
 
-[PPT]()
+[演示课件](./d2d/第1期.md)
+
+请查看 `D:\wea-code-camp\examples` 下的例子，`compelete` 为参考答案，`initial` 中可以自行对照练习。
 
 ### 🥉 参考资料
 

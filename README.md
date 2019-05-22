@@ -29,7 +29,7 @@ D2D（Designer to Developer）人类文明因为创造而延续，设计让生�
 
 [演示课件](./d2d/第1期.md)
 
-请查看 `D:\wea-code-camp\examples` 下的例子，`compelete` 为参考答案，`initial` 中可以自行对照练习。
+请查看 `D:\wued-code-camp\examples` 下的例子，`compelete` 为参考答案，`initial` 中可以自行对照练习。
 
 ### 🥉 参考资料
 

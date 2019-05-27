@@ -1,15 +1,16 @@
-# WeaCodeCamp
+# WUED Code Camp
+
+全栈设计师集训营，旨在帮助设计师快速掌握网页重构技巧，夯实编程基础，促进交流。
 
 ## 🎯 D2D 集训营第1期
 
 D2D（Designer to Developer）人类文明因为创造而延续，设计让生活更加美好。
 
-为了帮助设计师快速掌握网页重构，我将前端开发做一个简要的入门：
+日期：2019/05/20 
+
+地点：WeaTech 五楼小会议室
 
 ### 🥇 培训大纲
-
-日期：2019/05/20
-地点：泛微三楼小会议室
 
 - VS Code 开发工具
   - 安装与使用
@@ -22,20 +23,12 @@ D2D（Designer to Developer）人类文明因为创造而延续，设计让生�
   - 变量
   - 对象
   - 函数
-- CSS 规范
-  - Atomic Design 原子设计
-  - BEN 命名法则 (命名是检验代码质量的标准)
-  - Sass 预编译介绍
-- JQuery 进阶
-  - $.load()
-  - $.each()
-  - $.tongle()
 - 答疑环节
 - 作业练习
 
 ### 🥈 演示资料
 
-[PPT]()
+请查阅 [课程资料](./d2d/第1期.md)，并在 `D:\wued-code-camp\examples` 中，`compelete` 为参考答案，`initial` 中可以自行对照练习。
 
 ### 🥉 参考资料
 

@@ -5,12 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <style>
+    h1{ font-size: 100px; color: blue }
+  </style>
 </head>
 <body>
-  <h1 id="wuxd">WeaCodeCamp</h1>
+  <h1 id="wuxd" style="color: yellow">WeaCodeCamp</h1>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script>
+    // setTimeout(function(){
+    //   // 回调函数-当定时器过完 2000 毫秒之后，会执行一下语句。
+    //   document.getElementById('wuxd').style.fontSize = '12px';
+    //   // 取文档节点
+    //   console.log('原生 DOM：', document.getElementById('wuxd').style.color = 'red');
+    //   console.log('Jquery DOM：', $('#wuxd')[0].style.color = 'red');
+    // }, 2000);
+  </script>
+  <script>
+    // var $ = function(q) {
+    //   // q
+    //   return {
+    //     ajax: function(){},
+    //     css: function(){},
+    //     toggle: function(){},
+    //     on: function(){}
+    //   }
+    // }
+
+    $('#app').css({ width: "100px" })
     // 声明一个字符串
     var name = '邓邓';
+    // console.log('声明的变量直接挂载 window 顶级对象上：', window.name);
     // 声明一个对象
     var man = {
       name: '邓邓',
@@ -73,21 +98,18 @@
       }
     ];
 
-    var awesomeWUXD = function(groups) {
+    function awesomeWUXD(groups) {
       var sum = 0;
       for(var index = 0; index < groups.length; index++) {
         sum = sum + groups[index].age;
       }
       var average = Math.ceil(sum / groups.length);
-<<<<<<< HEAD
-      var text = '<h1>泛微 WUXD 成立于 2019/05/20，是一只年轻的设计团队，成员的平均年龄是【' + average + '】</h1>';
-=======
-      var text = '<h1>WUXD 成立于 2019/05/20，是一只年轻的设计团队，成员的平均年龄是【' + average + '】</h1>'
->>>>>>> 98246addb26cd6df06b845145bee59d6daa687f5
+      var text = 'WUXD 成立于 2019/05/20，是一只年轻的设计团队，成员的平均年龄是【' + average + '】';
       document.getElementById('wuxd').innerHTML = text;
+      // window.documnet === document
     }
     // 函数调用
-    awesomeWUXD(WUXD)
+    awesomeWUXD(WUXD);
   </script>
 </body>
 </html>

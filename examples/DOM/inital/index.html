@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+
 <body>
-  
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Fucking Awesome WUED</h1>
+      <p class="lead">No one born to design, just do it !</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <!-- 循环卡片 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow showcase-img">
+          <img src="http://placehold.it/500x350" class="card-img-top" alt="Member Name">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Member Name</h5>
+            <div class="card-text text-black-50">FullStack Designer</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    // 对象数组
+    var WUED = [
+      { name: 'jack-g-chen', avatar: 'https://avatars0.githubusercontent.com/u/50906620?s=300&v=4', role: 'Team Leader' },
+      { name: 'blankyl', avatar: 'https://avatars0.githubusercontent.com/u/50934382?s=300&v=4', role: 'UE Designer' },
+      { name: 'kangshuang', avatar: 'https://avatars0.githubusercontent.com/u/50934637?s=300&v=4', role: 'UI Designer' },
+      { name: 'GitHuboooSHY', avatar: 'https://avatars0.githubusercontent.com/u/50934332?s=300&v=4', role: 'FullStack Designer' },
+    ]
+    // 一个来自产品方案部的家伙
+    var guy = { 
+      name: 'Turkyden', 
+      avatar: 'http://placehold.it/500x350', 
+      role: 'JavaScript Developer' 
+    }
+    // 作业 1-请使用 js 动态绘制卡片，并插入文档中显示出来
+    
+    // 作业 2-点击每个卡片跳转到每个人的 github 博客主页
+  </script>
 </body>
+
 </html>

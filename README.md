@@ -18,4 +18,4 @@ D2D（Designer to Developer）全栈设计师集训营，人类文明因为创�
   - [DataList（敬请期待）](#)
   - [Accordion（敬请期待）](#)
 
-<p class="codepen" data-height="385" data-theme-id="0" data-default-tab="js,result" data-user="turkyden" data-slug-hash="MMwQqJ" data-preview="true" style="height: 385px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="js 动态渲染人物卡片">
+<div class="codepen" data-height="385" data-theme-id="0" data-default-tab="js,result" data-user="turkyden" data-slug-hash="MMwQqJ" data-preview="true" data-prefill='{"title":"js 动态渲染人物卡片","description":"字符串拼接，文档插入","tags":["card","render","bootstrap"],"stylesheets":["https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"],"scripts":[]}'>

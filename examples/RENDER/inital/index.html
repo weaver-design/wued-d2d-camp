@@ -8,7 +8,6 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -18,8 +17,10 @@
       <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
     </div>
   </div>
-        <!-- 循环卡片 -->
-      <!-- <div class="col-xl-3 col-md-6 mb-4">
+  <div class="container">
+    <div class="row">
+      <!-- 循环卡片 -->
+      <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow showcase-img">
           <img src="http://placehold.it/500x350" class="card-img-top" alt="Member Name">
           <div class="card-body text-center">
@@ -27,19 +28,16 @@
             <div class="card-text text-black-50">FullStack Designer</div>
           </div>
         </div>
-      </div> -->
-  <div class="container">
-    <div class="row" id="row">
-
+      </div>
     </div>
   </div>
   <script>
     // 对象数组
     var WUED = [
-      { name: '👽 jack-g-chen', avatar: 'https://avatars0.githubusercontent.com/u/50906620?s=300&v=4', role: 'Team Leader',addr:'https://github.com/jack-g-chen' },
-      { name: '👩‍🎨 blankyl', avatar: 'https://avatars0.githubusercontent.com/u/50934382?s=300&v=4', role: 'UE Designer' ,addr:'https://github.com/blankyl'},
-      { name: '👩 kangshuang', avatar: 'https://avatars0.githubusercontent.com/u/50934637?s=300&v=4', role: 'UI Designer' ,addr:'https://github.com/kangshuang'},
-      { name: '👼 GitHuboooSHY', avatar: 'https://avatars0.githubusercontent.com/u/50934332?s=300&v=4', role: 'FullStack Designer' ,addr:'https://github.com/GitHuboooSHY'},
+      { name: '👽 jack-g-chen', avatar: 'https://avatars0.githubusercontent.com/u/50906620?s=300&v=4', role: 'Team Leader' },
+      { name: '👩‍🎨 blankyl', avatar: 'https://avatars0.githubusercontent.com/u/50934382?s=300&v=4', role: 'UE Designer' },
+      { name: '👩 kangshuang', avatar: 'https://avatars0.githubusercontent.com/u/50934637?s=300&v=4', role: 'UI Designer' },
+      { name: '👼 GitHuboooSHY', avatar: 'https://avatars0.githubusercontent.com/u/50934332?s=300&v=4', role: 'FullStack Designer' },
     ]
     // 一个来自产品方案部的家伙
     var guy = { 
@@ -48,27 +46,8 @@
       role: 'JavaScript Developer' 
     }
     // 作业 1-请使用 js 动态绘制卡片，并插入文档中显示出来
-    function wuedCard (data){       
-      var templete = '';
-      for(i = 0; i < data.length; i++){
-        var cardBox = ''
-        + '<div class="col-xl-3 col-md-6 mb-4">'
-        +   '<div class="card border-0 shadow showcase-img">'
-        +     '<img src="' + data[i].avatar + '"class="card-img-top" alt="' + data[i].name + '"' +  ' onclick="window.open("' + data[i].addr + '")">'
-        +     '<div class="card-body text-center">'
-        +       '<h5 class="card-title mb-0">' + data[i].name + '</h5>'
-        +       '<div class="card-text text-black-50">' + data[i].role + '</div>'
-        +     '</div>'
-        +   '</div>'
-        + '</div>';
-        templete += cardBox ;
-
-      }
-      document.getElementById('row') .innerHTML = templete ;
-    }
-    wuedCard(WUED);
-
-
+    
+    // 作业 2-点击每个卡片跳转到每个人的 github 博客主页
   </script>
 </body>
 

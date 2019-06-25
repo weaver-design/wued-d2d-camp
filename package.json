@@ -2,13 +2,13 @@
   "name": "wued-code-camp",
   "version": "1.0.0",
   "description": "![weaver](https://img.shields.io/static/v1.svg?label=Weaver&message=UED&color=#c7161e)\r ![github](https://img.shields.io/github/stars/weaver-design/wued-code-camp.svg?style=social)",
-  "main": "index.js",
+  "main": "server/app.js",
   "directories": {
     "doc": "docs",
     "example": "examples"
   },
   "scripts": {
-    "start": "node server/index.js",
+    "start": "node server/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

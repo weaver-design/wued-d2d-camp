@@ -1,0 +1,9 @@
+{
+  "liveServer.settings.host": "192.168.30.175",
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.proxy": {
+    "enable": true,
+    "baseUri": "/api", // 从某路径下开始全量代理
+    "proxyUri": "http://192.168.30.175:3000/api" // 代理服务地址
+  }
+}

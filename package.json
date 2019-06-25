@@ -1,0 +1,26 @@
+{
+  "name": "wued-code-camp",
+  "version": "1.0.0",
+  "description": "![weaver](https://img.shields.io/static/v1.svg?label=Weaver&message=UED&color=#c7161e)\r ![github](https://img.shields.io/github/stars/weaver-design/wued-code-camp.svg?style=social)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weanet/wea-code-camp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weanet/wea-code-camp/issues"
+  },
+  "homepage": "https://github.com/weanet/wea-code-camp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

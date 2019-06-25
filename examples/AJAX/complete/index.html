@@ -56,17 +56,20 @@
     }
 
     // 知识点 1-发起 ajax 请求给本地服务器，加载人员卡片的静态数据
-    $.get('http://192.168.30.175:5500/examples/AJAX/complete/wued.json', function(res) {
+    $.get('./wued.json', function(res) {
       renderCard(res);
     })
 
     // 知识点 2-发起 ajax 请求给本地服务器，加载公共页面 HTML 片段
-    $('#wued_footer').load("http://192.168.30.175:5500/examples/AJAX/complete/footer.html", function() {
+    $('#wued_footer').load('./footer.html', function() {
       console.log('footer 加载完成');
     })
 
     // 知识点 3-发起 ajax 请求给其他服务器，加载人员卡片的动态数据，需要配置 live server 代理服务
-    $.get('http://192.168.30.175:5500/api/wued', function(res) {
+    // $.get('https://wued-code-camp.herokuapp.com/api/wued', function(res) {
+    //   renderCard(res);
+    // })
+    $.get('/api/wued', function(res) {
       renderCard(res);
     })
   </script>

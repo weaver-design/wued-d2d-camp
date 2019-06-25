@@ -2,7 +2,7 @@ var express = require('express')
 var request = require('request');
 var app = express()
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 80;
 
 // 四个人的 WUED
 var WUED = [

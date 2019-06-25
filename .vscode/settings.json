@@ -5,5 +5,5 @@
     "enable": true,
     "baseUri": "/api", // 从某路径下开始全量代理
     "proxyUri": "https://wued-code-camp.herokuapp.com/api" // 代理服务地址
-  }
+  },
 }

@@ -2,6 +2,8 @@ var express = require('express')
 var request = require('request');
 var app = express()
 
+var port = process.env.PORT || 8080;
+
 // 四个人的 WUED
 var WUED = [
   { name: '👽 jack-g-chen', avatar: 'https://avatars0.githubusercontent.com/u/50906620?s=300&v=4', role: 'Team Leader' },
@@ -36,5 +38,4 @@ app.get('/api/wued', function (req, res) {
   });
 })
 
-// 开放 3000 作为服务器端口
-app.listen(3000);
+app.listen(port);

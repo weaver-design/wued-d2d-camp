@@ -21,3 +21,14 @@ D2D（Designer to Developer）全栈设计师集训营，人类文明因为创�
   - [DataList（敬请期待）](#)
   - [Accordion（敬请期待）](#)
   
+## FAQ
+
+### Why is it called code camp ?
+
+roadhog is a hero from overwatch, just like [dva](https://github.com/dvajs/dva).
+
+<img src="https://gw.alipayobjects.com/zos/rmsportal/nnuuSFhDFUOfvYSRyvBh.png" width="405" height="411" />
+
+## LICENSE
+
+MIT

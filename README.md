@@ -24,7 +24,17 @@ D2D（Designer to Developer）全栈设计师集训营，人类文明因为创�
 - React 通用 UI 组件设计与编码
   - [DataList（敬请期待）](#)
   - [Accordion（敬请期待）](#)
-  
+
+## Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)]. <a href="https://github.com/umijs/umi/graphs/contributors"><img src="https://opencollective.com/umi/contributors.svg?width=890&button=false" /></a>
+
+## Community
+
+| Slack Group                                                                                                                                                                     | Github Issue                                            | 钉钉群                                                                                                                         | 微信群                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- |
+| [sorrycc.slack.com](https://join.slack.com/t/sorrycc/shared_invite/enQtNTUzMTYxNDQ5MzE4LTg1NjEzYWUwNDQzMWU3YjViYjcyM2RkZDdjMzE0NzIxMTg3MzIwMDM2YjUwNTZkNDdhNTY5ZTlhYzc1Nzk2NzI) | [umijs/umi/issues](https://github.com/umijs/umi/issues) | <img src="https://cdn.nlark.com/yuque/0/2019/jpeg/86025/1561529290421-cb5b5807-d0b9-466f-bf83-fc10909b9af8.jpeg" width="60" /> | <img src="https://img.alicdn.com/tfs/TB13U6aF6DpK1RjSZFrXXa78VXa-752-974.jpg" width="60" /> |
+
 ## FAQ
 
 ### Why is it called code camp ?

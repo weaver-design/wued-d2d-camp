@@ -9,6 +9,8 @@ D2D（Designer to Developer）全栈设计师集训营，人类文明因为创�
 
 姊妹篇 [WUED Design Camp](#) 即将上线！
 
+主讲 | [@Turkyden](https://github.com/Turkyden)
+
 ## 目录
 
 - D2D 集训营

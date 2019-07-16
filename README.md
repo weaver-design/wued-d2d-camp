@@ -7,6 +7,8 @@ D2D（Designer to Developer）全栈设计师集训营，人类文明因为创�
 
 旨在帮助设计师快速掌握网页重构技巧，夯实编程基础，促进交流。[看一看](https://weaver-design.github.io/wued-code-camp/.)
 
+姊妹篇 [WUED Design Camp](#)
+
 ## 目录
 
 - D2D 集训营

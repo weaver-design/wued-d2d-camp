@@ -20,6 +20,7 @@ D2D（Designer to Developer）全栈设计师集训营，人类文明因为创�
   - [x] [D2D 集训营第4期（Wootstrap 翻译计划宣讲、Github Issue 讨论问答区）](https://weaver-design.github.io/wued-code-camp/d2d/4.html)
   - [x] [D2D 集训营第5期（站在前端工程师的角度思考、Ajax 技术、Web 应用架构概览）](https://weaver-design.github.io/wued-code-camp/d2d/5.html)
   - [x] [D2D 集训营第6期（Github 代码托管与多人协作、创业意识的培养）](https://weaver-design.github.io/wued-code-camp/d2d/6.html)
+  - [x] [D2D 集训营第7期（表单提交乱码问题答疑、Vue.js 框架介绍）](https://weaver-design.github.io/wued-code-camp/d2d/7.html)
 
 - React 通用 UI 组件设计与编码
   - [DataList（敬请期待）](#)

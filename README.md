@@ -40,7 +40,7 @@ This project exists thanks to all the people who contribute. [[Contribute](CONTR
 
 ### Why is it called code camp ?
 
-roadhog is a hero from overwatch, just like [dva](https://github.com/dvajs/dva).
+roadhog is a hero from overwatch, just like [WUED](https://github.com/weaver-design).
 
 <img src="https://gw.alipayobjects.com/zos/rmsportal/nnuuSFhDFUOfvYSRyvBh.png" width="405" height="411" />
 

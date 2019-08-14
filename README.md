@@ -43,7 +43,7 @@ This project exists thanks to all the people who contribute. [[Contribute](CONTR
 
 ## FAQ
 
-### Why is it called code camp ?
+### Why is it called d2d camp ?
 
 roadhog is a hero from overwatch, just like [WUED](https://github.com/weaver-design).
 

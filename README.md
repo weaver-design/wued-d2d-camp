@@ -23,6 +23,10 @@ D2D（Designer to Developer）全栈设计师集训营，人类文明因为创�
   - [x] [D2D 集训营第7期（表单提交乱码问题答疑、Vue.js 框架介绍）](https://weaver-design.github.io/wued-code-camp/d2d/7.html)
 
 - 第二期 ) 平面设计基础
+  - [PS 基础（敬请期待）](#)
+  - [UI 设计的那些美感（敬请期待）](#)
+  
+- 第三期 ) 组件化开发
   - [Vue 组件设计 - DataList（敬请期待）](#)
   - [Vue 组件设计 - Accordion（敬请期待）](#)
 

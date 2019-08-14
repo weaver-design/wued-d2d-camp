@@ -1,4 +1,4 @@
-# WUED Code Camp
+# WUED D2D Camp
 
 ![weaver](https://img.shields.io/static/v1.svg?label=Weaver&message=UED&color=#c7161e)
 ![github](https://img.shields.io/github/stars/weaver-design/wued-code-camp.svg?style=social)

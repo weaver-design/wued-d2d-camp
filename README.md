@@ -13,7 +13,7 @@ D2D（Designer to Developer）全栈设计师集训营，人类文明因为创�
 
 ## 目录
 
-- D2D 集训营
+- D2D 集训营(第一期)
   - [x] [D2D 集训营第1期（VSCode 编辑器、JS 基础语法、Chrome 浏览器调试）](https://weaver-design.github.io/wued-code-camp/d2d/1.html)
   - [x] [D2D 集训营第2期（Dom 编程、Window 顶级对象、元素选择器）](https://weaver-design.github.io/wued-code-camp/d2d/2.html)
   - [x] [D2D 集训营第3期（JS 字符串拼接、卡片渲染函数、页面中动态插入 DOM 元素）](https://weaver-design.github.io/wued-code-camp/d2d/3.html)

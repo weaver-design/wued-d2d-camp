@@ -13,7 +13,7 @@ D2D（Designer to Developer）全栈设计师集训营，人类文明因为创�
 
 ## 目录
 
-- 第一期 ) 网页制作基础
+- Part1 ) 网页开发基础
   - [x] [D2D 集训营第1期（VSCode 编辑器、JS 基础语法、Chrome 浏览器调试）](https://weaver-design.github.io/wued-code-camp/d2d/1.html)
   - [x] [D2D 集训营第2期（Dom 编程、Window 顶级对象、元素选择器）](https://weaver-design.github.io/wued-code-camp/d2d/2.html)
   - [x] [D2D 集训营第3期（JS 字符串拼接、卡片渲染函数、页面中动态插入 DOM 元素）](https://weaver-design.github.io/wued-code-camp/d2d/3.html)
@@ -22,12 +22,12 @@ D2D（Designer to Developer）全栈设计师集训营，人类文明因为创�
   - [x] [D2D 集训营第6期（Github 代码托管与多人协作、创业意识的培养）](https://weaver-design.github.io/wued-code-camp/d2d/6.html)
   - [x] [D2D 集训营第7期（表单提交乱码问题答疑、Vue.js 框架介绍）](https://weaver-design.github.io/wued-code-camp/d2d/7.html)
 
-- 第二期 ) 平面设计基础
+- Part2 ) 平面设计基础
   - [PS 基础（敬请期待）](#)
   - [前卫与庸俗 UI 设计的那些美感（敬请期待）](#)
   - [Material Design 分析（敬请期待）](#)
   
-- 第三期 ) 组件化开发
+- Part3 ) 组件化开发
   - [Vue 组件设计 - DataList（敬请期待）](#)
   - [Vue 组件设计 - Accordion（敬请期待）](#)
 

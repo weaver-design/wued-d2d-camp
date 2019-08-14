@@ -37,9 +37,9 @@ This project exists thanks to all the people who contribute. [[Contribute](CONTR
 
 ## Community
 
-| Github Issue                                            | 钉钉群                                                                                                                         | 微信群                                                                                      |
+| Github Issue                                            | 微信群                                                                                      |
 | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- |
-| [weaver-design/wued-d2d-camp/issues](https://github.com/weaver-design/wued-d2d-camp/issues) | <img src="https://cdn.nlark.com/yuque/0/2019/jpeg/86025/1561529290421-cb5b5807-d0b9-466f-bf83-fc10909b9af8.jpeg" width="60" /> | <img src="https://img.alicdn.com/tfs/TB13U6aF6DpK1RjSZFrXXa78VXa-752-974.jpg" width="60" /> |
+| [weaver-design/wued-d2d-camp/issues](https://github.com/weaver-design/wued-d2d-camp/issues) | <img src="http://ww1.sinaimg.cn/large/006g8Dvggy1g5z0448o0oj30u01bq411.jpg" width="60" /> |
 
 ## FAQ
 
